@@ -34,7 +34,6 @@ def sortedSquaredArray(array):
 				new_array.append(array[right_pos]**2)
 				right_pos += 1
 		elif(right_pos == len(array)):
-			left_pos = len(array)-1
 			while(left_pos >= 0):
 				new_array.append(array[left_pos]**2)
 				left_pos -= 1
